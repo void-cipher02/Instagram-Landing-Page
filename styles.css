@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0b0b0b;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0b0b0b;
+    border-color: #8e8e8e;
+}
+
+.login-box {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #0b0b0b;
+    border-color: #8e8e8e;
+}
+
+.logo {
+    width: 175px;
+    margin-bottom: 20px;
+    background-color: #dbdbdb;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #0b0b0b;
+    border-color: #8e8e8e;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #121212;
+    color: #dbdbdb ;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #3897f0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button.fb-login {
+    background-color: #3897f0;
+    margin-top: 10px;
+}
+
+.or {
+    margin: 10px 0;
+    color: #8e8e8e;
+    font-weight: bold;
+    padding-left: 12px; padding-right: 12px; padding-top: 12px;
+}
+
+.forgot-password {
+    color: #dbdbdb;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.signup-box {
+    background-color: #0c0c0c;
+    border: 1px solid #8c8c8c;
+    padding-left: 20px; padding-right: 20px; padding-bottom: 20px;
+    width: 350px;
+    text-align: center;
+    color: white;
+}
+
+.signup-box a {
+    color: #3897f0;
+    text-decoration: none;
+}
+
+.get-the-app-box {
+    padding: 20px;
+    color: white;
+} 
